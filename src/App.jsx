@@ -1,6 +1,6 @@
 import { Post } from "./post"
 
-
+import './styles.css'
 
 export function App() {
 
