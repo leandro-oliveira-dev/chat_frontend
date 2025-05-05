@@ -1,5 +1,6 @@
 import { Post } from "./post"
 import { Header } from "./components/Header"
+import styles from './App.module.css'
 
 import './global.css'
 
@@ -11,8 +12,9 @@ export function App() {
 
       <Header />
 
-      <Post author="Leandro" content="Lorem ipsum dolor sit amet" />
-      <Post author="Fulano" content="novo post aqui mano" />
+      <div className={styles.wrapper}></div>
+      <aside></aside>
+      <main></main>
 
 
     </div>
