@@ -14,7 +14,9 @@ export function App() {
 
       <div className={styles.wrapper}></div>
       <aside></aside>
-      <main></main>
+      <main>
+        <h1>oi</h1>
+      </main>
 
 
     </div>
